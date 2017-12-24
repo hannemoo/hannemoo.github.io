@@ -2,16 +2,20 @@
 
 h1 {
     text-align: center;
-    margin-top: 50px;    
+    margin-top: 50px;
 }
 body {
-   font-family: 'Abel';font-size: 18px;
+    font-family: 'Abel';font-size: 18px;
 }
+
+/*.nieuwsbrief {*/
+/*margin-bottom: 8px;*/
+/*}*/
 
 #trouw p{
     text-align:right;
     font-weight: 900
-    
+
 }
 
 .kolom1 {
@@ -25,67 +29,67 @@ body {
     left: 30px;
     top: 75px;
     border: solid 2px;
-    
+
 }
 
 .sprite{
-    width: 40px; 
+    width: 40px;
     height: 40px;
     background-image: url('../img/sp.png');
- 
+
 }
 
 .sprite-instagram{
     background-position-x:-40px;
-    }
+}
 
 .sprite-linkdin{
-        background-position-x:-80px;
-        }
+    background-position-x:-80px;
+}
 
 .sprite-twitter{
-            background-position-x:-120px;
-            }
+    background-position-x:-120px;
+}
 
 .sprite-facebook:hover{
     /* korte notatie */
     background-position:0 0;
-     /* lange notatie */
+    /* lange notatie */
     background-position-x:-0px;
-    background-position-y:96px; 
-    
-    }
+    background-position-y:40px;
 
-    .sprite-instagram:hover{
-        /* korte notatie */
-        background-position:0 0;
-         /* lange notatie */
-        background-position-x:-96px;
-        background-position-y:96px; 
-        
-        }
+}
 
-        .sprite-linkdin:hover{
-            /* korte notatie */
-            background-position:0 0;
-             /* lange notatie */
-            background-position-x:-192px;
-            background-position-y:288px; 
-            
-            }
+.sprite-instagram:hover{
+    /* korte notatie */
+    background-position:0 0;
+    /* lange notatie */
+    background-position-x:-40px;
+    background-position-y:40px;
 
-            .sprite-twitter:hover{
-                /* korte notatie */
-                background-position:0 0;
-                 /* lange notatie */
-                background-position-x:-288px;
-                background-position-y:476px; 
-                
-                }
+}
+
+.sprite-linkdin:hover{
+    /* korte notatie */
+    background-position:0 0;
+    /* lange notatie */
+    background-position-x:-80px;
+    background-position-y:40px;
+
+}
+
+.sprite-twitter:hover{
+    /* korte notatie */
+    background-position:0 0;
+    /* lange notatie */
+    background-position-x:-120px;
+    background-position-y:40px;
+
+}
 
 .filmpje{
-    padding-left:100px;
-    padding-top:30px;
+    background-color:white;
+    padding: 30px;
 }
 
 .btn{
@@ -96,7 +100,7 @@ body {
 .form-control{
     border: 2px solid black;
     border-radius: 0px;
-    
+
 }
 
 .producttekst{
@@ -104,7 +108,7 @@ body {
     border-radius: 0px;
     background-color:white;
     padding: 20px;
-    
+
 
 }
 
@@ -126,26 +130,25 @@ body {
     color:lightgrey;
 }
 
+
+#gelegenheden {
+    width: 100%;
+    height: 450px;
+    background: url('../img/trouw.png') no-repeat;
+    background-size: contain;
+}
+
 #gelegenheden:hover {
-    padding:0px;
-    width: 100%;
     background-image: url('../img/trouwhover.png');
-
 }
 
-
-#gelegenhedenn:hover {
-    padding:0px;
-    width: 100%;
-background-image: url('../img/trouwhover.png');
-height: 100px;
+.center-text {
+    text-align: center;
 }
 
-#gelegenhedenn {
-    padding:0px;
-    width: 100%;
-background-image: url('../img/trouw.png');
-opacity: 50;
+#social-icons {
+    margin: 0 auto;
+    width: 160px;
 }
 
 .logoengaged img:hover{
@@ -156,7 +159,7 @@ opacity: 50;
 }
 
 .container{
-    
+
     background-image: url('../img/trouwhover.png');
 }
 
