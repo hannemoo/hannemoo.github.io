@@ -1,0 +1,167 @@
+
+
+h1 {
+    text-align: center;
+    margin-top: 50px;    
+}
+body {
+   font-family: 'Abel';font-size: 18px;
+}
+
+#trouw p{
+    text-align:right;
+    font-weight: 900
+    
+}
+
+.kolom1 {
+    text-align:right;
+    font-weight: 900
+}
+
+#reservatieknop {
+    position: fixed;
+    z-index: 100;
+    left: 30px;
+    top: 75px;
+    border: solid 2px;
+    
+}
+
+.sprite{
+    width: 40px; 
+    height: 40px;
+    background-image: url('../img/sp.png');
+ 
+}
+
+.sprite-instagram{
+    background-position-x:-40px;
+    }
+
+.sprite-linkdin{
+        background-position-x:-80px;
+        }
+
+.sprite-twitter{
+            background-position-x:-120px;
+            }
+
+.sprite-facebook:hover{
+    /* korte notatie */
+    background-position:0 0;
+     /* lange notatie */
+    background-position-x:-0px;
+    background-position-y:96px; 
+    
+    }
+
+    .sprite-instagram:hover{
+        /* korte notatie */
+        background-position:0 0;
+         /* lange notatie */
+        background-position-x:-96px;
+        background-position-y:96px; 
+        
+        }
+
+        .sprite-linkdin:hover{
+            /* korte notatie */
+            background-position:0 0;
+             /* lange notatie */
+            background-position-x:-192px;
+            background-position-y:288px; 
+            
+            }
+
+            .sprite-twitter:hover{
+                /* korte notatie */
+                background-position:0 0;
+                 /* lange notatie */
+                background-position-x:-288px;
+                background-position-y:476px; 
+                
+                }
+
+.filmpje{
+    padding-left:100px;
+    padding-top:30px;
+}
+
+.btn{
+    border: 2px solid black;
+    border-radius: 0px;
+}
+
+.form-control{
+    border: 2px solid black;
+    border-radius: 0px;
+    
+}
+
+.producttekst{
+    border: 4px solid black;
+    border-radius: 0px;
+    background-color:white;
+    padding: 20px;
+    
+
+}
+
+.invulform{
+    border: 2px solid black;
+    border-radius: 0px;
+    padding-top: 15px;
+}
+
+.knoponder{
+    margin-top: 10px;
+}
+
+#example-email-input {
+    color:lightgrey;
+}
+
+.form-control {
+    color:lightgrey;
+}
+
+#gelegenheden:hover {
+    padding:0px;
+    width: 100%;
+    background-image: url('../img/trouwhover.png');
+
+}
+
+
+#gelegenhedenn:hover {
+    padding:0px;
+    width: 100%;
+background-image: url('../img/trouwhover.png');
+height: 100px;
+}
+
+#gelegenhedenn {
+    padding:0px;
+    width: 100%;
+background-image: url('../img/trouw.png');
+opacity: 50;
+}
+
+.logoengaged img:hover{
+    background-image: url('../img/logo-engagedgrijsklein.png');
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+
+.container{
+    
+    background-image: url('../img/trouwhover.png');
+}
+
+.footer {
+    background-color: lightgrey;
+}
+
+

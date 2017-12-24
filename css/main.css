@@ -1,0 +1,17 @@
+.sprite{
+    width: 96px;
+    height: 96px;
+    background-image: url('../img/spritesheathoover.png')
+}
+.sprite-klok{
+background-position-x:-96px;
+}
+
+.sprite-klok:hover{
+/* korte notatie */
+background-position:0 0;
+ /* lange notatie */
+background-position-x:-96px;
+background-position-y:96px; 
+
+}
