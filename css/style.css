@@ -47,7 +47,7 @@ img {
     z-index: 100;
     left: 30px;
     top: 75px;
-    border: solid 2px;
+    border: solid 3px;
 
 }
 
@@ -118,8 +118,10 @@ iframe {
 }
 
 .btn{
-    border: 2px solid black;
+    border: 3px solid black;
     border-radius: 0px;
+    font-family: 'Abel', serif;
+
 }
 
 .form-control{
@@ -129,22 +131,24 @@ iframe {
 }
 
 .producttekst{
-    border: 4px solid black;
-    border-radius: 0px;
+    
     background-color:white;
-    padding: 20px;
+    padding: 15px;
+}
 
+.omtrek{
+    border: 4px solid black;
+    padding: 20px;
 
 }
 
 .invulform{
-    border: 2px solid black;
-    border-radius: 0px;
-    padding-top: 15px;
+    padding:15px;
 }
 
 .knoponder{
-    margin-top: 10px;
+    margin-bottom: 30px;
+    border: solid 3px;
 }
 
 #example-email-input {
@@ -157,10 +161,13 @@ iframe {
 
 
 #gelegenheden {
+    margin: auto;
     width: 100%;
     height: 450px;
     background: url('../img/trouw.png') no-repeat;
     background-size: contain;
+    background-position: center;
+    
 }
 
 #gelegenheden:hover {
@@ -191,6 +198,40 @@ iframe {
 
 .footer {
     background-color: lightgrey;
+    padding-top: 5px;
 }
 
+.navbar{
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    z-index: 100;
+}
 
+#home{
+    margin-top: 61px;
+}
+
+.center-text a {
+    text-decoration: underline;
+    color: black;
+}
+
+.reserveerform{
+    border: 3px solid black;
+    padding: 15px;
+    padding-top: 30px;
+}
+
+.footer p{
+    font-size: small ;
+    
+}
+
+/* bevestigingspagina */
+.bedankt {
+    padding-top: 60px;
+    padding-left: 15px;
+    text-align: center;
+    
+}
