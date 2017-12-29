@@ -69,7 +69,7 @@
         <!-- Einde overkoepelende div -->
     </nav>
 
-    <a id="reservatieknop" class="btn btn-secondary" href="#reserveer">
+    <a id="reservatieknop" class="btn btn-secondary d-none d-md-block" href="#reserveer">
         RESERVEER
     </a>
     <!-- Einde navbar wrapper -->
@@ -145,7 +145,10 @@
                 <div class="col-12">
                     <div class="row">
                         <div class="col-sm-12 col-md-6">
-                            <img style="width:100%" src="img/fles.png" alt="champagnefles met logo">
+                            <!--  <img style="width:100%" src="img/fles.png" alt="champagnefles met logo">-->
+                            <img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="img/fles.png" alt="champagnefles" width="100%">
+                          
+
                         </div>
                         <div class="col-sm-12 col-md-6 producttekst">
                             <div class="omtrek">
@@ -445,6 +448,20 @@
         crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
         crossorigin="anonymous"></script>
-</body>
+
+        <script>
+            function bigImg(x) {
+                x.style.height = "485px";
+                x.style.width = "430px";
+            }
+            
+            function normalImg(x) {
+                x.style.height = "375px";
+                x.style.width = "420px";
+            }
+            </script>
+
+    </body>
 
 </html>
+
