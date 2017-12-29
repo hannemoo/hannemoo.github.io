@@ -71,44 +71,25 @@ img {
 }
 
 .sprite-facebook:hover{
-    /* korte notatie */
-    background-position:0 0;
-    /* lange notatie */
-    background-position-x:-0px;
-    background-position-y:40px;
+    background-position:-0px 40px;
 
 }
 
 .sprite-instagram:hover{
-    /* korte notatie */
-    background-position:0 0;
-    /* lange notatie */
-    background-position-x:-40px;
-    background-position-y:40px;
-
+    background-position:-40px 40px;
 }
 
 .sprite-linkdin:hover{
-    /* korte notatie */
-    background-position:0 0;
-    /* lange notatie */
-    background-position-x:-80px;
-    background-position-y:40px;
-
+    background-position:-80px 40px;
 }
 
 .sprite-twitter:hover{
-    /* korte notatie */
-    background-position:0 0;
-    /* lange notatie */
-    background-position-x:-120px;
-    background-position-y:40px;
-
+    background-position:-120px 40px;
 }
 
 .filmpje{
     background-color:white;
-    padding: 15px;
+    padding: 30px;
     padding-bottom: 0;
 }
 
@@ -133,7 +114,7 @@ iframe {
 .producttekst{
     
     background-color:white;
-    padding: 15px;
+    padding: 30px;
 }
 
 .omtrek{
@@ -143,7 +124,9 @@ iframe {
 }
 
 .invulform{
-    padding:15px;
+    padding:0px 30px 10px 30px;
+    
+
 }
 
 .knoponder{
@@ -193,18 +176,20 @@ iframe {
 .wrapper{
     margin-left: 3%;
     margin-right: 3%;
-    background-image: url('../img/trouwhover.png');
+    background-image: url('../img/achtergrond.jpg');
+   /*   background-repeat: no-repeat;
+    background-attachment: fixed; */
 }
 
 .footer {
-    background-color: lightgrey;
+    background-color: rgb(243, 243, 243);
     padding-top: 5px;
 }
 
 .navbar{
-    position: fixed; /* Set the navbar to fixed position */
-    top: 0; /* Position the navbar at the top of the page */
-    width: 100%; /* Full width */
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
     z-index: 100;
 }
 
@@ -219,7 +204,7 @@ iframe {
 
 .reserveerform{
     border: 3px solid black;
-    padding: 15px;
+    padding: 30px;
     padding-top: 30px;
 }
 
@@ -234,4 +219,28 @@ iframe {
     padding-left: 15px;
     text-align: center;
     
+}
+
+.google{
+    padding:0px 30px;
+}
+
+.knoppie{
+    padding: 0px 30px
+}
+
+.nieuw{
+    padding:0px 30px;
+}
+
+.tekst{
+    padding:0px 30px;
+}
+
+.logos{
+    padding:0px 30px;
+}
+
+img{
+    margin: auto;
 }
